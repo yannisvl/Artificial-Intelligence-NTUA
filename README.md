@@ -1,0 +1,2 @@
+Java project as part of the Artificial Intelligence course in Electrical Engineering NTUA department. 
+It computes multiple best paths from taxis to clients using the A\* algorithm. Prolog is used for heuristics.
