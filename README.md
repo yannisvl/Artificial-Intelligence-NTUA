@@ -2,15 +2,11 @@
 
 A Java/Prolog coursework project for the NTUA Artificial Intelligence course. It computes candidate routes from taxis to a client using A* search, with Prolog rules contributing road and taxi reasoning.
 
-## Approach
+## Example output
 
-```mermaid
-flowchart LR
-    A[Road, traffic, taxi and client CSV files] --> B[Graph and Prolog facts]
-    B --> C[Rules and heuristic reasoning]
-    C --> D[A-star route search]
-    D --> E[Candidate taxi routes]
-```
+![Five taxi routes computed by the Java and Prolog program over the Athens road network](docs/images/taxi-routes.png)
+
+Visualization of five routes from a successful run with the included dataset. The colored paths come from the program's generated `kml-file.kml`; the background roads come from `nodes.csv`. The star marks the client, and the circles mark the taxis. This is a visualization of the output, not a graphical interface built into the application.
 
 ## Code guide
 
